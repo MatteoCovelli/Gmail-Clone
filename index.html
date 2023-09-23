@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Google+Sans"
+    />
+
+    <!-- Google icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <title>Progetto Gmail</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="main-header">
+      <div class="header-left">
+        <span class="material-symbols-outlined menu-icon"> menu </span>
+        <a href="#"
+          ><img src="img/logo-gmail.png" alt="" class="gmail-logo"
+        /></a>
+      </div>
+      <div class="header-middle">
+        <span class="material-symbols-outlined search-icon"> search </span>
+        <input
+          type="text"
+          placeholder="Cerca nella posta"
+          class="input-ricerca"
+        />
+        <span class="material-symbols-outlined close-icon hidden"> close </span>
+        <span class="material-symbols-outlined tune-icon"> tune </span>
+      </div>
+      <div class="header-right">
+        <span class="material-symbols-outlined help-icon"> help </span>
+        <span class="material-symbols-outlined settings-icon"> settings </span>
+        <span class="material-symbols-outlined apps-icon"> apps </span>
+        <span class="material-symbols-outlined account-circle-icon">
+          account_circle
+        </span>
+      </div>
+    </header>
+    <!-- Header ends -->
+
+    <!-- main-container start -->
+
+    <div class="main-container">
+      <!-- sidebar start -->
+      <div class="sidebar">
+        <!-- menu mail start -->
+        <div class="menu-mail">
+          <div class="scrivi">
+            <button id="myBtn">
+              <span class="material-symbols-outlined"> edit </span>
+              Scrivi
+            </button>
+          </div>
+          <div class="arrivo sfondo">
+            <span class="material-symbols-outlined"> inbox </span>
+            <p>Posta in arrivo</p>
+          </div>
+
+          <div class="speciali sfondo">
+            <span class="material-symbols-outlined"> star </span>
+            <p>Speciali</p>
+          </div>
+          <div class="posticipati sfondo">
+            <span class="material-symbols-outlined"> schedule </span>
+            <p>Posticipati</p>
+          </div>
+          <div class="importanti sfondo">
+            <span class="material-symbols-outlined"> label_important </span>
+            <p>Importanti</p>
+          </div>
+          <div class="inviati sfondo">
+            <span class="material-symbols-outlined"> send </span>
+            <p>Inviati</p>
+          </div>
+          <div class="bozze sfondo">
+            <span class="material-symbols-outlined"> note </span>
+            <p>Bozze</p>
+          </div>
+        </div>
+        <!-- menu mail ends -->
+      </div>
+      <!-- sidebar ends -->
+
+      <div class="container-1">
+        <!-- opzioni starts -->
+        <div class="opzioni">
+          <div class="opzioni-left">
+            <input type="checkbox" class="checkbox-option" />
+            <span class="material-symbols-outlined arrow-drop-down-icon">
+              arrow_drop_down
+            </span>
+            <span class="material-symbols-outlined refresh-icon">
+              refresh
+            </span>
+            <span class="material-symbols-outlined more-vert-icon">
+              more_vert
+            </span>
+          </div>
+
+          <div class="opzioni-right">
+            <p>1-20 di 1000</p>
+            <span class="material-symbols-outlined chevron-left-icon">
+              chevron_left
+            </span>
+            <span class="material-symbols-outlined chevron-right-icon">
+              chevron_right
+            </span>
+          </div>
+        </div>
+        <!-- opzioni ends -->
+
+        <!-- mails start -->
+        <div class="mails">
+          <!-- categorie starts -->
+          <div class="categorie">
+            <div class="principale back">
+              <span class="material-symbols-outlined c-icona"> inbox </span>
+              <p class="c-nome">Principale</p>
+            </div>
+            <div class="promozioni back">
+              <span class="material-symbols-outlined c-icona"> sell </span>
+              <p class="c-nome">Promozioni</p>
+            </div>
+            <div class="social back">
+              <span class="material-symbols-outlined c-icona"> group </span>
+              <p class="c-nome">Social</p>
+            </div>
+            <div class="aggiornamenti back">
+              <span class="material-symbols-outlined c-icona"> info </span>
+              <p class="c-nome">Aggiornamenti</p>
+            </div>
+            <div class="forum back">
+              <span class="material-symbols-outlined c-icona"> forum </span>
+              <p class="c-nome">Forum</p>
+            </div>
+          </div>
+          <!-- categorie ends -->
+          <div class="row">
+            <!-- mail 1 start -->
+            <div class="mail mail0sample">
+              <div class="icone-mail">
+                <input type="checkbox" />
+                <span class="material-symbols-outlined"> star </span>
+                <span class="material-symbols-outlined"> label_important </span>
+                <p>Amazon.com</p>
+              </div>
+              <div class="contenuto-mail">
+                <p class="cont">
+                  Ottieni 90 giorni di musica inclusi nel suo recente ordine su
+                  Amazon - Attiva il tuo abbonamento ad Amazon Music Unlimited
+                </p>
+              </div>
+              <p class="data-mail">20/09/2023</p>
+            </div>
+            <!-- mail 1 ends -->
+          </div>
+        </div>
+
+        <!-- mails end -->
+
+        <!-- footer start -->
+        <div class="footer">
+          <p>0,14 GB di 17 GB utilizzati</p>
+          <p>Termini · Privacy · Norme del programma</p>
+          <p>Ultima attività dell'account: 1 ora fa</p>
+        </div>
+        <!-- footer ends -->
+        <div class="dettagli-footer">Dettagli</div>
+      </div>
+
+      <!-- form invio mail start -->
+
+      <div class="form-invio-mail">
+        <div class="menu-invio">
+          <p>Nuovo messaggio</p>
+          <div>
+            <span class="material-symbols-outlined"> minimize </span>
+            <span class="material-symbols-outlined"> open_in_full </span>
+            <span class="material-symbols-outlined chiudi-form"> close </span>
+          </div>
+        </div>
+
+        <input
+          type="text"
+          class="mail-destinatario"
+          placeholder="Destinatari"
+        />
+        <input type="text" class="mail-oggetto" placeholder="Oggetto" />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          class="testo-mail"
+        ></textarea>
+        <div class="container-btn-mail">
+          <button class="btn-invia">
+            <p>INVIA</p>
+            <span class="material-symbols-outlined"> expand_more </span>
+          </button>
+          <div class="mail-icon">
+            <span class="material-symbols-outlined"> format_color_text </span>
+            <span class="material-symbols-outlined"> attach_file </span>
+            <span class="material-symbols-outlined"> link </span>
+            <span class="material-symbols-outlined"> mood </span>
+            <span class="material-symbols-outlined"> add_to_drive </span>
+            <span class="material-symbols-outlined"> image </span>
+            <span class="material-symbols-outlined"> lock_clock </span>
+            <span class="material-symbols-outlined"> ink_pen </span>
+            <span class="material-symbols-outlined"> more_vert </span>
+          </div>
+          <div class="container-btn-mail2">
+            <span class="material-symbols-outlined"> delete </span>
+          </div>
+        </div>
+      </div>
+      <!-- form invio mail ends -->
+    </div>
+
+    <!-- main-container ends -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
